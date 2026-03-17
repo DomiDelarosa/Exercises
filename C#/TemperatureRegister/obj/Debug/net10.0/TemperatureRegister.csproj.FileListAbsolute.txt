@@ -12,3 +12,17 @@ C:\Users\maren\Desktop\Programming\Exercises\TemperatureRegister\obj\Debug\net10
 C:\Users\maren\Desktop\Programming\Exercises\TemperatureRegister\obj\Debug\net10.0\TemperatureRegister.pdb
 C:\Users\maren\Desktop\Programming\Exercises\TemperatureRegister\obj\Debug\net10.0\TemperatureRegister.genruntimeconfig.cache
 C:\Users\maren\Desktop\Programming\Exercises\TemperatureRegister\obj\Debug\net10.0\ref\TemperatureRegister.dll
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\bin\Debug\net10.0\TemperatureRegister.exe
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\bin\Debug\net10.0\TemperatureRegister.deps.json
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\bin\Debug\net10.0\TemperatureRegister.runtimeconfig.json
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\bin\Debug\net10.0\TemperatureRegister.dll
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\bin\Debug\net10.0\TemperatureRegister.pdb
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\obj\Debug\net10.0\TemperatureRegister.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\obj\Debug\net10.0\TemperatureRegister.AssemblyInfoInputs.cache
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\obj\Debug\net10.0\TemperatureRegister.AssemblyInfo.cs
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\obj\Debug\net10.0\TemperatureRegister.csproj.CoreCompileInputs.cache
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\obj\Debug\net10.0\TemperatureRegister.dll
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\obj\Debug\net10.0\refint\TemperatureRegister.dll
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\obj\Debug\net10.0\TemperatureRegister.pdb
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\obj\Debug\net10.0\TemperatureRegister.genruntimeconfig.cache
+C:\Users\maren\Desktop\Programming\Exercises\C#\TemperatureRegister\obj\Debug\net10.0\ref\TemperatureRegister.dll
