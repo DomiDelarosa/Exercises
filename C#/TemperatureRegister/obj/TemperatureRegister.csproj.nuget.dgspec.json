@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\TemperatureRegister\\TemperatureRegister.csproj": {}
+    "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\C#\\TemperatureRegister\\TemperatureRegister.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\TemperatureRegister\\TemperatureRegister.csproj": {
+    "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\C#\\TemperatureRegister\\TemperatureRegister.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\TemperatureRegister\\TemperatureRegister.csproj",
+        "projectUniqueName": "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\C#\\TemperatureRegister\\TemperatureRegister.csproj",
         "projectName": "TemperatureRegister",
-        "projectPath": "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\TemperatureRegister\\TemperatureRegister.csproj",
+        "projectPath": "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\C#\\TemperatureRegister\\TemperatureRegister.csproj",
         "packagesPath": "C:\\Users\\maren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\TemperatureRegister\\obj\\",
+        "outputPath": "C:\\Users\\maren\\Desktop\\Programming\\Exercises\\C#\\TemperatureRegister\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
