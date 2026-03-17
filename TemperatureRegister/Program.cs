@@ -27,7 +27,7 @@ class TemperaturesRegister
          if (temps[i] > maxTemp)
             maxTemp = temps[i];
          if (temps[i] < minTemp)
-            minTemp = temps[i]; 
+            minTemp = temps[i];
       }
       Console.WriteLine("La temperatura máxima es: " + maxTemp);
       Console.WriteLine("La temperatura mínima es: " + minTemp);
