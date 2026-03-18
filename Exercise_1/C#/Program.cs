@@ -13,7 +13,11 @@ class TemperaturesRegister
          if (double.TryParse(Console.ReadLine(), out double temp))
          {
             temps[i] = temp;
-            sumTemps += temps[i];
+            sumaTemps += temps[i];
+         } else
+         {
+            Console.WriteLine("Entrada no válida. Por favor, ingresa un número.");
+            i--;
          }
       }
 
