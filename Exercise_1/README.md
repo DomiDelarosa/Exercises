@@ -1,5 +1,5 @@
  Enunciado del problema:
-Se tienen las temperaturas diarias (en °C) de los 7 días de una semana almacenadas en un arreglo double[] . Diseñar un programa en C# que:
+Se tienen las temperaturas diarias (en °C) de los 7 días de una semana almacenadas en un arreglo double[] . Diseñar un programa que:
 
 1. Lea las 7 temperaturas desde el teclado
 
