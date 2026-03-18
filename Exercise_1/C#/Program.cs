@@ -6,7 +6,7 @@ class TemperaturesRegister
       double[] temps = new double[7];
       string[] diaSemana = { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo" };
       double sumaTemps = 0;
-      
+
       for (int i = 0; i < temps.Length; i++)
       {
          Console.Write("Ingresa la temperatura del día " + diaSemana[i] + ": ");
@@ -14,7 +14,8 @@ class TemperaturesRegister
          {
             temps[i] = temp;
             sumaTemps += temps[i];
-         } else
+         }
+         else
          {
             Console.WriteLine("Entrada no válida. Por favor, ingresa un número.");
             i--;
@@ -30,7 +31,6 @@ class TemperaturesRegister
       int posMin = 0;
       for (int i = 1; i < temps.Length; i++)
       {
-         
          if (temps[i] > maxTemp) // si la temperatura actual es mayor a la máxima registrada, se actualiza el valor de la máxima y su posición
          {
             maxTemp = temps[i];
@@ -42,8 +42,7 @@ class TemperaturesRegister
             minTemp = temps[i];
             posMin = i;
          }
-      }  
-
+      }
 
       // bubble sort para ordenar las temperaturas de menor a mayor
 
@@ -60,7 +59,6 @@ class TemperaturesRegister
          }
       }
 
-      
       // cuántos días estuvieron por encima del promedio
       int diasPorEncimaPromedio = 0;
 
