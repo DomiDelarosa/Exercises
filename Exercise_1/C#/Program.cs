@@ -4,12 +4,12 @@ class TemperaturesRegister
    static void Main()
    {
       double[] temps = new double[7];
-      string[] weekDays = { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo" };
-      double sumTemps = 0;
+      string[] diaSemana = { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo" };
+      double sumaTemps = 0;
       
       for (int i = 0; i < temps.Length; i++)
       {
-         Console.Write("Ingresa la temperatura del dia " + weekDays[i] + ": ");
+         Console.Write("Ingresa la temperatura del día " + diaSemana[i] + ": ");
          if (double.TryParse(Console.ReadLine(), out double temp))
          {
             temps[i] = temp;
@@ -17,10 +17,8 @@ class TemperaturesRegister
          }
       }
 
-      double average = sumTemps / temps.Length;
-      Console.WriteLine("El promedio de las temperaturas es: " + average);
+      double promedio = sumaTemps / temps.Length;
 
-      // Search the max and min temperatures in the array
       // Revisar el día más caluroso y el día más frío
       double maxTemp = temps[0];
       double minTemp = temps[0];
