@@ -31,13 +31,13 @@ class TemperaturesRegister
       for (int i = 1; i < temps.Length; i++)
       {
          
-         if (temps[i] > maxTemp)
+         if (temps[i] > maxTemp) // si la temperatura actual es mayor a la máxima registrada, se actualiza el valor de la máxima y su posición
          {
             maxTemp = temps[i];
             posMax = i;
          }
 
-         if (temps[i] < minTemp)
+         if (temps[i] < minTemp) // si la temperatura actual es menor a la mínima registrada, se actualiza el valor de la mínima y su posición
          {
             minTemp = temps[i];
             posMin = i;
