@@ -42,9 +42,45 @@ class TemperaturesRegister
             minTemp = temps[i];
             posMin = i;
          }
+      }  
 
-      Console.WriteLine("El día más caluroso fue el " + weekDays[posMax] + " con " + maxTemp + "°C");
-      Console.WriteLine("El día más frío fue el " + weekDays[posMin] + " con " + minTemp + "°C");
+
+      // bubble sort para ordenar las temperaturas de menor a mayor
+
+      for (int i = 0; i < temps.Length - 1; i++)
+      {
+         for (int j = 0; j < temps.Length - i - 1; j++)
+         {
+            if (temps[j] > temps[j + 1]) // si la temperatura actual es mayor a la siguiente, se intercambian los valores
+            {
+               double temp = temps[j];
+               temps[j] = temps[j + 1];
+               temps[j + 1] = temp;
+            }
+         }
       }
+
+      
+      // cuántos días estuvieron por encima del promedio
+      int diasPorEncimaPromedio = 0;
+
+      for (int i = 0; i < temps.Length; i++)
+      {
+         if (temps[i] > promedio)
+         {
+            diasPorEncimaPromedio++;
+         }
+      }
+
+      Console.WriteLine("El promedio de las temperaturas es: " + promedio + "°C");
+      Console.WriteLine("El día más caluroso fue el " + diaSemana[posMax] + " con " + maxTemp + "°C");
+      Console.WriteLine("El día más frío fue el " + diaSemana[posMin] + " con " + minTemp + "°C");
+      Console.WriteLine("Las temperaturas ordenadas de menor a mayor son: ");
+      for (int i = 0; i < temps.Length; i++) // se imprimen las temperaturas ordenadas de menor a mayor
+      {
+         Console.Write(temps[i] + "°C ");
+      }
+      Console.WriteLine("\nLa cantidad de días que estuvieron por encima del promedio es: " + diasPorEncimaPromedio);
+
    }
 }
